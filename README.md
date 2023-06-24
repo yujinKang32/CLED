@@ -5,7 +5,7 @@ Source code for "Improving Contrastive Learning in Emotion Recognition in Conver
 - command:
   
   ```
-    python train.py --dataset [MELD/EMORY/iemocap/dailydialog] --batch 8 --loss [ce/supcon/neu] --augment centroid
+    python train.py --dataset [MELD/EMORY/iemocap/dailydialog] --batch 8 --loss [ce/supcon/neu] --augment centroid --prob 0.5
   ```
 
   ## Key argument
